@@ -1,28 +1,30 @@
 {
-  "name": "016-nextjs-app-directory",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
-  },
-  "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
-    "@types/node": "latest",
-    "@types/react-dom": "latest",
-    "autoprefixer": "latest",
-    "eslint-config-conermurphy": "^1.1.0",
-    "postcss": "latest",
-    "tailwindcss": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest"
-  }
+    "name": "016-nextjs-app-directory",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "eslint": "eslint"
+    },
+    "dependencies": {
+        "@next/eslint-plugin-next": "^14.1.0",
+        "next": "latest",
+        "react": "latest",
+        "react-dom": "latest"
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "@types/react": "^18.2.48",
+        "@types/react-dom": "latest",
+        "autoprefixer": "latest",
+        "eslint": "latest",
+        "eslint-config-conermurphy": "^1.1.0",
+        "eslint-config-next": "latest",
+        "postcss": "latest",
+        "tailwindcss": "latest",
+        "typescript": "latest"
+    }
 }
